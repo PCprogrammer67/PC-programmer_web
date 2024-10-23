@@ -1,0 +1,198 @@
+    body {
+        background-color: rgba(215, 241, 217, 0.788);
+    }
+   
+    .backimg{
+        background-image: url(Python/1_IRGB-4OAoO8KSqH_huDPFw.gif) ;
+    }
+    
+    h2 {
+        text-align: center;
+
+        background-color: #5f95e6;
+        color: #141404;
+        padding: 1px 8px 1px;
+        border-radius: 10%;
+        font-style: italic;
+    }
+.h33{color: aliceblue;
+    font-size: 250%;
+
+}    
+    h3.h3 {
+    
+        font-size: 250%;
+    }
+    
+    a.my:hover {
+        
+        font-size: 150%;
+        padding: 4px;
+        border-top-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+    }
+    
+    a.a {
+        color: #f78282;
+        font-size: 150%;
+    }
+    
+    a {
+        padding: 10Px;
+        text-decoration: none;
+    }
+    
+    img.img {
+        border-radius: 100%;
+    }
+    
+    .menubar {
+        background-color: #f78282;
+        padding-left: 50px;
+        padding-right: 50px;
+        overflow: hidden;
+        border-radius: 7px;
+    }
+    svg{
+        max-width: 100px;
+        box-sizing: 30px;
+    }
+    marquee{
+         animation-direction: alternate-reverse;
+
+    }
+    
+    li:hover {
+        padding-left: 2px;
+        background-color: #f07777;
+        color: rgb(0, 0, 0);
+        text-overflow: clip;
+       
+    }
+    
+    ul {
+        background-color: #f78282;
+        padding: 3px;
+        justify-content: center;
+    }
+    .menu-items {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        white-space: nowrap;
+    }
+    
+    li {
+        display: inline; 
+        padding: 10px;
+        color: white;
+        
+        box-sizing: 3px;
+    }
+    .p2{
+        padding: 1px;
+        font-weight: 13%;
+        font-size:130%;
+        color:antiquewhite;
+
+    }
+    .p {
+        padding: 1px;
+        font-weight: 10%;
+        font-size: 176%;
+       
+    }
+    
+    table {
+        border-color: gold;
+    }
+    
+    td {
+        font-size: 150%;
+    }
+    
+    .container {
+        display: flex;
+        align-items: start;
+        justify-content: space-evenly;
+    }
+    
+    .imgs {
+        padding-right: -30px;
+        width: 40%;
+        height: 20%;
+        float: right;
+    }
+    
+    .text {
+        padding-left: 0px;
+    }
+    
+    .padborder {
+        padding-left: 10px;
+    }
+
+    #inpt{
+        block-size: 23px;
+        border-radius: 20px;
+        text-align-last: center;
+        border-left-color: #12c5f1;
+        border-top-color: #12c5f1;
+        border-right-color:  #f06868;
+        border-bottom-color: #f06868;
+        background: transparent;
+       
+        
+    }
+    #inpt:hover{
+        
+        border-color: gold;
+    }
+    
+    #logb{
+
+        block-size: 25px;
+        border-radius: 15px;
+        max-block-size: 35px;
+        text-align-last: center;
+        border-left-color: #12c5f1;
+        border-top-color: #12c5f1;
+        border-right-color:  #f06868;
+        border-bottom-color: #f06868;
+        box-shadow:1px 5px 26px rpx red;
+        transition: all 3s;
+    }
+    #logb:hover{
+        transition: all 2s;
+            transform: rotate(360deg) ;
+            background:linear-gradient(45deg,blue 5%,red);    
+    }
+    #sinb{
+        box-shadow:1px 5px 26px rpx red;
+        transition: all 3s;
+        border-radius: 15px;
+        block-size: 25px;
+        border-color:linear-gradient(45deg,blue 5%,red) ;
+    }
+    #sinb:hover{
+        transition: all 2s;
+            transform: rotate(360deg) ;
+            background:linear-gradient(45deg,blue 5%,red);    
+    }
+
+#log_cont1{
+    border-color: gold;
+    max-width: 50%;
+    padding: 24px solid red;
+    background:linear-gradient(rgb(117, 168, 211) 0%,rgb(243, 197, 48)80%,rgb(39, 122, 23));
+
+}
+
+#log_cont{
+    width: 400px; /* Width of the container */
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1); /* Transparent background */
+    border-radius: 15px; /* Rounded corners */
+    backdrop-filter: blur(6px); /* Blur effect */
+    text-align: center;
+  }
